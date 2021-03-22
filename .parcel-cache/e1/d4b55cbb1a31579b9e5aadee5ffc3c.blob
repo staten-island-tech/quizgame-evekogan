@@ -1,0 +1,10 @@
+body {
+  font-family: Stardew_Valley;
+  color: #672714;
+  background-color: #f6bb6a;
+}
+
+@font-face {
+  font-family: Stardew_Valley;
+  src: url("../fonts/Stardew_Valley.ttf");
+}

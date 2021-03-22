@@ -1,0 +1,15 @@
+body {
+  font-family: Stardew_Valley;
+  color: #672714;
+  background-color: #f6bb6a;
+  text-shadow: -3px 0px #ffc891;
+}
+
+@font-face {
+  font-family: Stardew_Valley;
+  src: url("91cebd4cc24332801cb3e39727cdfc05");
+}
+
+.selection-box {
+  background-color: #dc7b06;
+}

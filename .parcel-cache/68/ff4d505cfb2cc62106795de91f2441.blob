@@ -1,0 +1,12 @@
+body {
+  font-family: Stardew_Valley;
+  color: #672714;
+  background-color: #f6bb6a;
+  text-shadow: -3px 2px #f0a350;
+}
+
+@font-face {
+  font-family: Stardew_Valley;
+  src: url("Stardew_Valley.HASH_REF_2f1663137add51a401eaf2096f79a33d.ttf");
+}
+/*# sourceMappingURL=index.HASH_REF_4e4b48d14b05138322efb086ec8548c3.css.map */
