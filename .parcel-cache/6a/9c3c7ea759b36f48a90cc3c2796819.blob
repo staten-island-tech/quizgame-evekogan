@@ -1,8 +1,0 @@
-body {
-  background-color: red;
-}
-
-@fonts {
-  font-family: Stardew_Valley;
-  src: url("681a9c7f735444a0f8ac1b21c6bd29de");
-}

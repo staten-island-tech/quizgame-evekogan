@@ -1,7 +1,0 @@
-console.log("connected");
-
-let questions = [
-    {
-        "question"
-    }
-]
