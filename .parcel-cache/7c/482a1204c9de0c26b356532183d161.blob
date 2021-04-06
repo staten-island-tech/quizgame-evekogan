@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a60f8e0cde6a6effe90044aab8273e00">
+    <title>Document</title>
+</head>
+<body>
+    <div class="question-box">
+        <h1 class="question">What alias did Eric Barone create Stardew Valley Under?</h1>
+        <div class="answer-box">
+            <h1 class="answer-text">Holly</h1>
+        </div> 
+        <div class="answer-box">
+            <h1 class="answer-text">Strawberry</h1>
+        </div>
+        <div class="answer-box">
+            <h1 class="answer-text">Leek</h1>
+        </div>
+        <div class="answer-box">
+            <h1 class="answer-text">Goat Cheese</h1>
+        </div>
+    </div>
+    <div class="question-box">
+        <div class="question">Which of these items is a favorite item of Demetrius?</div>
+        <div class="answer-box">
+            <h1 class="answer-text">Which character is this?</h1>
+        </div> 
+        <div class="answer-box">
+            <h1 class="answer-text">Which character is this?</h1>
+        </div>
+        <div class="answer-box">
+            <h1 class="answer-text">Which character is this?</h1>
+        </div>
+        <div class="answer-box">
+            <h1 class="answer-text">Which character is this?</h1>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question">Insert a question here?</h1>
+        <div class="answer-box">
+            <h1 class="answer-text">Which character is this?</h1>
+        </div> 
+        <div class="answer-box">
+            <h1 class="answer-text">Which character is this?</h1>
+        </div>
+        <div class="answer-box">
+            <h1 class="answer-text">Which character is this?</h1>
+        </div>
+        <div class="answer-box">
+            <h1 class="answer-text">Which character is this?</h1>
+        </div>
+    </div>
+    
+    <script src="06dfe9f8db92a79f21cf80f953a0a070"></script>
+
+</body>
+</html>

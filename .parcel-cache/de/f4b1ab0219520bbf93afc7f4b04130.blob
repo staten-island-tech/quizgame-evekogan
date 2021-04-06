@@ -1,0 +1,30 @@
+html,
+body {
+  font-size: 62.5%;
+  font-family: Stardew_Valley;
+  background-color: #f6bb6a;
+}
+
+@font-face {
+  font-family: Stardew_Valley;
+  src: url("91cebd4cc24332801cb3e39727cdfc05");
+}
+
+.selection-box {
+  background-color: #dc7b06;
+  height: auto;
+  padding: 2rem;
+  margin: 3rem;
+  border-top: 3px solid #EFA500;
+  border-right: 3px solid #EFA500;
+  border-bottom: 3px solid #B85505;
+  border-left: 3px solid #B85505;
+  outline: 3px solid #774300;
+  box-shadow: -10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.question-text {
+  color: #672714;
+  font-size: 3rem;
+  text-shadow: -1px 0px #ffc891;
+}
