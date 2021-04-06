@@ -445,44 +445,42 @@ id) /*: string*/
 console.log("connected");
 
 function submitAnswers() {
-  var total = 10;
-  var score = 0;
-  //Get user input
-  var q1 = document.forms["quizForm"]["q1"].value;
-  var q2 = document.forms["quizForm"]["q2"].value;
-  var q3 = document.forms["quizForm"]["q3"].value;
-  var q4 = document.forms["quizForm"]["q4"].value;
-  var q5 = document.forms["quizForm"]["q5"].value;
-  var q6 = document.forms["quizForm"]["q6"].value;
-  var q7 = document.forms["quizForm"]["q7"].value;
-  var q8 = document.forms["quizForm"]["q8"].value;
-  var q9 = document.forms["quizForm"]["q9"].value;
-  var q10 = document.forms["quizForm"]["q10"].value;
-  for (var i = 1; i <= total; i++) {
+  const total = 10; //max number of questions
+  let score = 0; //start score at 0
+  //save results from the form as variables
+  const q1 = document.forms["quizForm"]["q1"].value;
+  const q2 = document.forms["quizForm"]["q2"].value;
+  const q3 = document.forms["quizForm"]["q3"].value;
+  const q4 = document.forms["quizForm"]["q4"].value;
+  const q5 = document.forms["quizForm"]["q5"].value;
+  const q6 = document.forms["quizForm"]["q6"].value;
+  const q7 = document.forms["quizForm"]["q7"].value;
+  const q8 = document.forms["quizForm"]["q8"].value;
+  const q9 = document.forms["quizForm"]["q9"].value;
+  const q10 = document.forms["quizForm"]["q10"].value;
+  //check to see if user forgot any questions
+  for (const i = 1; i <= total; i++) {
     if (eval("q" + i) == null || eval("q" + i) == "") {
-      alert("you missed question " + i);
-      return false;
+      alert("You missed question " + i);
+      return false; //prevents page refresh
     }
   }
 
   //set correct answers
-  var answers = ["b", "b", "c", "c", "a", "d", "d", "a", "b", "a"];
+  const answers = ["b", "b", "c", "c", "a", "d", "d", "a", "b", "a"];
 
-  //check answers
-  for (var i = 1; i <= total; i++) {
+  //check answers with for loop
+  for (const i = 1; i <= total; i++) {
     if (eval("q" + i) == answers[i - 1]) {
-      score++;
+      score++; //add score for every question right
     }
   }
-  console.log("You scored " + score + " out of " + total);
+  console.log("You scored " + score + " out of " + total); //temporary console log
+
   //display results
-  var results = document.getElementById("results");
-  results.innerHTML =
-    "<h3> You scored <span" +
-    score +
-    "</span> out of <span>" +
-    total +
-    "</span></h3>";
+  const results = document.getElementById("results");
+  results.innerText = `You scored ${score} out of ${max}.`;
+  return false;
 }
 
 },{}]},["21c8X","3L8AI"], "3L8AI", "parcelRequire6db6")

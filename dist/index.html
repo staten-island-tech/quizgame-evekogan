@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form name="stardewQuiz" onsubmit="submitAnswers();" ;="">
+    <form name="stardewQuiz" onsubmit="submitAnswers();return false" ;="">
     <div class="question-box">
         <h1 class="question">What alias did Eric Barone create Stardew Valley Under?</h1>
         <div class="answer-box">
@@ -237,12 +237,10 @@
         </div>
     </div>
         <div class="question-box">
-            <input type="submit" value="Submit Answers">
-            <h1 id="results">Your score will appear here.</h1>
+            <input type="button" onsubmit=" submitAnswers()" value="Submit Answers">
+            <h1 class="answer-text" id="results">Your score will appear here.</h1>
         </div>
-        </form>
-    
+    </form>
     <script src="/index.2142d36c.js"></script>
-    
 </body>
 </html>
