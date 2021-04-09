@@ -2,7 +2,10 @@ html,
 body {
   font-size: 62.5%;
   font-family: Stardew_Valley;
-  background-color: #000025;
+  background-image: url("../../img/starbg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 @font-face {
@@ -80,4 +83,10 @@ body {
 #submit-button:active {
   transform: translateX(-4px) translateY(4px);
   box-shadow: none;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+  max-width: 100rem;
 }
