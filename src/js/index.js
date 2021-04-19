@@ -37,6 +37,7 @@ function submitAnswers() {
   const results = document.getElementById("results");
   const reaction = document.getElementById("reaction");
   results.innerText = `You scored ${score} out of 10.`;
+
   if (score === 10) {
     reaction.innerText =
       "Congratulations! You got a perfect score! Are you sure you aren't ConcernedApe?";
