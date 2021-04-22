@@ -482,7 +482,29 @@ function submitAnswers() {
   const reaction = document.getElementById("reaction");
   results.innerText = `You scored ${score} out of 10.`;
 
-  if (score === 10) {
+  switch (true) {
+    case score === 10:
+      reaction.innerText =
+        "Congratulations! You got a perfect score! Are you sure you aren't ConcernedApe?";
+      break;
+    case score >= 7 && score < 10:
+      reaction.innerText = "Nice job! You know a lot about the game";
+      break;
+    case score >= 4 && score < 7:
+      reaction.innerText =
+        "Could be better. You should brush up on your Stardew knowledge!";
+      break;
+    case score >= 1 && score < 4:
+      reaction.innerText =
+        "Do you even play the game? I'll answer that for you. Clearly not.";
+      break;
+    case score === 0:
+      reaction.innerText =
+        "I'm disapointed. Genuinely. Not even JojaMart deserves you.";
+      break;
+  }
+
+  /* if (score === 10) {
     reaction.innerText =
       "Congratulations! You got a perfect score! Are you sure you aren't ConcernedApe?";
   }
@@ -500,7 +522,7 @@ function submitAnswers() {
   if (score === 0) {
     reaction.innerText =
       "I'm disapointed. Genuinely. Not even JojaMart deserves you.";
-  }
+  } */
 }
 
 submitButton.addEventListener("click", function (e) {
